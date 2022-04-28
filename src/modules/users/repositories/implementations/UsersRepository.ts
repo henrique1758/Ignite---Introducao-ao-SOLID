@@ -30,6 +30,8 @@ class UsersRepository implements IUsersRepository {
       updated_at: new Date()
     });
 
+    this.users.push(user);
+
     return user;
   }
 
